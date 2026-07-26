@@ -1,0 +1,12 @@
+name = "trumex"
+main = "worker.js"
+compatibility_date = "2026-07-26"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "trumex-db"
+database_id = "YOUR_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "PRODUCT_IMAGES"
+bucket_name = "trumex-images"
