@@ -1,4 +1,42 @@
-*{
+.sidebar{
+    width:250px;
+    background:#1e293b;
+    color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    height:100vh;
+    padding:20px;
+}
+
+.sidebar a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 0;
+}
+
+.sidebar a:hover{
+    color:#38bdf8;
+}
+
+.main-content{
+    margin-left:270px;
+    padding:30px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}Welcome to Gboard clipboard, any text that you copy will be saved here.*{
     margin:0;
     padding:0;
     box-sizing:border-box;
