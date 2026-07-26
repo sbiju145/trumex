@@ -1,10 +1,12 @@
+background:#1e293b;
+background:#ffffff;
 body{
     background:#0f172a;body{
     background:#f5f5f5;
     color:#222;.sidebar{
     background:#1e293b;.sidebar{
     background:#ffffff;
-    color:#222;
+color:#fff;    color:#222;
     border-right:1px solid #ddd;
 }
 .sidebar{
@@ -26,7 +28,10 @@ body{
 }
 
 .sidebar a:hover{
-    color:#38bdf8;
+    color:#color:#222;git add .
+git commit -m "Light sidebar"
+git push origin main
+38bdf8;
 }
 
 .main-content{
